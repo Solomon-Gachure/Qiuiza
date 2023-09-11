@@ -1,5 +1,5 @@
 body {
-    background-color: hotpink;
+    background-color: rgb(20, 20, 20);
 
 }
 
@@ -9,6 +9,7 @@ body {
     padding: 15px;
     border-radius: 10px;
     height: auto;
+    margin: 100px;
 
 }
 
@@ -19,7 +20,7 @@ body {
 .btn {
     border-radius: 10px;
     color: white;
-    background-color: darkgreen;
+    background-color: burlywood;
     border: 1px solid;
     padding: 10px;
     cursor: pointer;
@@ -28,4 +29,23 @@ body {
     margin: 10px 0;
     text-align: left;
     font-weight: 500;
+    transition: 0.3s ease;
+}
+
+.btn:hover {
+    background-color: maroon;
+
+}
+
+.next {
+    display: block;
+    padding: 10px;
+    background-color: hotpink;
+    color: white;
+    border: 0;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 20px auto 0;
+    width: 150px;
+    display: none;
 }
