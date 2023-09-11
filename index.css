@@ -1,0 +1,31 @@
+body {
+    background-color: hotpink;
+
+}
+
+.Di1 {
+    border: 1px solid;
+    background-color: white;
+    padding: 15px;
+    border-radius: 10px;
+    height: auto;
+
+}
+
+.mam {
+    border-bottom: 1px solid;
+}
+
+.btn {
+    border-radius: 10px;
+    color: white;
+    background-color: darkgreen;
+    border: 1px solid;
+    padding: 10px;
+    cursor: pointer;
+    display: block;
+    width: 100%;
+    margin: 10px 0;
+    text-align: left;
+    font-weight: 500;
+}
